@@ -10,6 +10,7 @@ main {
 
 section {
 	overflow: hidden;
+	padding: 50px;
 }
 
 .right {
@@ -23,12 +24,10 @@ section {
 header {
 	height: 100%;
 	background-color: #3498DB;
+	padding: 50px;
 }
 
 .header-con {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
 	width: 50%;
 	text-align: center;
 }
@@ -42,30 +41,18 @@ header {
 
 .welcome-heading {
 	color: #fff;
-	font-size: 4.5em;
 	line-height: 1.6em;
-	
-	/*@media (min-width: 400px) {
-		font-size: 3.2em;
-	}
-	
-	@media (min-width: 480px) {
-		font-size: 3.5em;
-	}
-	
-	@media (min-width: 768px) {
-		font-size: 4.5em;
-	}*/
 }
 
+
 .team {
-	height: 100%;
+	height: auto;
 	background-color: #E74C3C;
 }
 
 .column {
 	height: 100%;
-	width: 33.33333%;
+	width: 100%;
 	text-align: center;
 	margin-top: 50px;
 }
@@ -105,7 +92,6 @@ header {
 	color: #FFF;
 	line-height: 1.6em;
 	font-weight: 300;
-	margin-top: 150px;
 	text-align: left;
 }
 

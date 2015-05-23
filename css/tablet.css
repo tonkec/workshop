@@ -1,0 +1,21 @@
+.header-con {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.team {
+	height: 100%;
+}
+
+.column {
+	width: 33.33333%;
+}
+
+.welcome-heading {
+	font-size: 3em;
+}
+
+.product-paragraph {
+	margin-top: 150px;
+}
