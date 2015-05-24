@@ -7,6 +7,35 @@ html, body {
 	font-family: 'Source Sans Pro';
 }
 
+.nav {
+	background: #fff;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+}
+
+.nav-list {
+	list-style: none;
+	height: 100%;
+	margin: 0 auto;
+	margin-right: 60px;
+	float: right;s
+}
+
+.nav-list-item {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 25px;
+}
+
+.nav-list-anchor {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
 main {
 	height: 100%;
 }
