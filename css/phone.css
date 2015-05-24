@@ -10,6 +10,15 @@
 	height: auto;
 }
 
+.product-con {
+	margin-top: 40px;
+}
+
 .product-img {
 	width: 50%;
+	margin-top: 0;
+}
+
+.product-paragraph {
+	font-size: 1.2em;
 }

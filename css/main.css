@@ -82,11 +82,14 @@ header {
 	background-color: #E74C3C;
 }
 
+.team-con {
+	margin-top: 100px;
+}
+
 .column {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	margin-top: 50px;
 }
 
 .team-img {
@@ -122,18 +125,24 @@ header {
 	background-color: #049372;
 }
 
+.product-con {
+	display: table;
+}
+
 .product-paragraph {
-	font-size: 1.7em;
 	color: #FFF;
 	line-height: 1.6em;
 	font-weight: 300;
 	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .product-img {
 	width: 80%;
 	border-radius: 10%;
 	height: auto;
+	margin-top: 50px;
 }
 
 footer {
@@ -147,11 +156,13 @@ footer {
 	text-align: center;
 	font-size: 3.5em;
 	font-weight: 300;
+	margin-top: 50px;
 }
 
 .footer-form {
 	margin: 0 auto;
 	width: 50%;
+	margin-top: 70px;
 }
 
 .input-field {
