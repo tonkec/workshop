@@ -20,7 +20,7 @@ html, body {
 	height: 100%;
 	margin: 0 auto;
 	margin-right: 60px;
-	float: right;s
+	float: right;
 }
 
 .nav-list-item {
@@ -195,6 +195,8 @@ footer {
 	color: #fff;
 	font-size: 1.5em;
 	cursor: pointer;
+	-webkit-border-radius: 30px;
+	        border-radius: 30px;
 }
 
 .btn-submit:hover {
