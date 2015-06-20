@@ -41,11 +41,14 @@ main {
 
 section, footer {
 	height: 100%;
+	overflow: hidden;
+	padding: 0 20px;
 }
 
 header {
 	background-color: #3498DB;
 	height: 100%;
+	padding: 0 20px;
 }
 
 .header-con {
@@ -80,10 +83,115 @@ header {
 	background-color: #E74C3C;
 }
 
+.team-heading {
+	text-align: center;
+	color: #FFF;
+	font-size: 2.5em;
+	font-weight: 300;
+	margin: 20px auto 0;
+	font-weight: 300;
+}
+
+.team-img {
+	width: 50%;
+}
+
+.team-small-heading {
+	color: #FFF;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 300;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.team-subtext {
+	color: #FFF;
+	font-weight: 300;
+	font-size: 1.2em;
+	margin-top: 20px;
+}
+
+.left-column {
+	width: 33.33333%;
+	height: auto;
+	float: left;
+	text-align: center;
+	margin-top: 100px;
+}
+
 .product {
 	background-color: #049372;
 }
 
+.product-con {
+	height: 100%;
+	margin: 0;
+}
+
+.product-img {
+	width: 80%;
+	-webkit-border-radius: 10%;
+	        border-radius: 10%;
+	height: auto;
+	margin-top: 50px;
+}
+
+.product-paragraph {
+	color: #FFF;
+	line-height: 1.6em;
+	font-weight: 300;
+	font-size: 1.4em;
+	margin-top: 200px;
+}
+
 footer {
 	background-color: #22313F;
+}
+
+.footer-form {
+	margin: 0 auto;
+	width: 50%;
+	margin-top: 70px;
+}
+
+.contact-heading {
+	font-weight: 300;
+	color: #FFF;
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.input-field {
+	display: block;
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+	height: 40px;
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 20px auto 0;
+
+}
+.input-field:focus {
+	outline: none;
+	color: #fff;
+}
+
+.btn-submit {
+	float: right;
+	background-color: #95A5A6;
+	color: #FFF;
+	padding: 15px 0;
+	width: 50%;
+	font-size: 1.5em;
+	font-weight: 300;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+	-webkit-border-radius: 30px;
+	        border-radius: 30px;
 }
