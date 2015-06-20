@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+body,
+html {
+	height: 100%;
+	font-family: 'Source Sans Pro';
+}
+
+nav {
+	position: fixed;
+	background: #fff;
+	width: 100%;
+	height: 80px;
+	z-index: 99;
+}
+
+.nav-list {
+	height: 100%;
+	margin: 0 auto;
+	float: right;
+	margin-right: 60px;
+}
+
+.nav-list-item {
+	display: inline-block;
+	color: #000;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.nav-list-anchor {
+	color: #000;
+	font-size: 1.2em;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+main {
+	height: 100%;
+}
+
+section, footer {
+	height: 100%;
+}
+
+header {
+	background-color: #3498DB;
+	height: 100%;
+}
+
+.header-con {
+	width: 50%;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.header-image {
+	width: 100%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.welcome-heading {
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	font-size: 42px;
+	line-height: 1.6em;
+}
+
+.team {
+	background-color: #E74C3C;
+}
+
+.product {
+	background-color: #049372;
+}
+
+footer {
+	background-color: #22313F;
+}
